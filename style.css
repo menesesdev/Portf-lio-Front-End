@@ -83,7 +83,7 @@ a:hover {
 }
 
 .txt-topo-site p {
-    margin: 80;
+    margin: 30;
     color: white;
 }
 
@@ -182,13 +182,20 @@ main .btn-contato button {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px; 
+  margin-top: 20px;
+  
+}
+main .btn-contato button:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+  color: #cb004e;
 }
 
 a:hover {
   color: white;
   transform: scale(1.05);
   transition: 0.4s;
+  
 }
 
 .txt-topo-site p {
@@ -219,6 +226,6 @@ section.txt-topo-site.flex {
 
 .img-topo-site {
   float: inline-end;
-  margin-top: -450px;
+  margin-top: -500px;
   margin-right: -50px;
 }
