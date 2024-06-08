@@ -110,7 +110,7 @@ a:hover {
 section.topo-do-site .flex{
   align-items: center;
   justify-content:flex-start;
-  gap: 200px;
+  gap: 190px;
 }
 
 .topo-do-site.txt-topo-site p {
@@ -118,11 +118,44 @@ section.topo-do-site .flex{
 }
 
 .img-topo-site {
-  width: 400px; /* Adjust as needed */
+  width: 400px;
   height: auto;
 }
 
 /*Especialidades*/
 section.especialidades {
   padding: 40px 4%;
+}
+
+section.especialidades .flex{
+  gap: 50px;
+}
+
+h2.sub-titulo {
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+
+.especialidades .especialidade-box{
+  color: white;
+  padding: 40px;
+  border: 2px solid white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.especialidades .especialidade-box:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.especialidades .especialidade-box i{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.especialidades .especialidade-box h3{
+  font-size: 24px;
+  margin-bottom: 20px;
 }
