@@ -226,6 +226,6 @@ section.txt-topo-site.flex {
 
 .img-topo-site {
   float: inline-end;
+  width: -100px; /* Adjust as needed */
   margin-top: -500px;
-  margin-right: -50px;
 }
