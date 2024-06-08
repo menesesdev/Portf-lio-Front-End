@@ -42,7 +42,7 @@ header, main, footer {
 header {
   padding: 40px 4%;
   margin-bottom: 0;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 header > .interface {
@@ -105,14 +105,12 @@ a:hover {
   line-height: 1;
 }
 
-section.topo-do-site {
-  padding: 20px 4%;
-}
+
 
 section.topo-do-site .flex{
   align-items: center;
-  justify-content: center;
-  gap: 50px;
+  justify-content:flex-start;
+  gap: 200px;
 }
 
 .topo-do-site.txt-topo-site p {
