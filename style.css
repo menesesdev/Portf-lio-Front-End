@@ -163,6 +163,26 @@ h2.sub-titulo {
 
 /* Sobre mim */
 
+section.sobre {
+  padding: 0 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 50px;
+}
+
 .img-sobre img{
   border-radius: 2%;
+}
+
+.sobre .txt-sobre{
+  color: white;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 72px;
+  margin: 0 0 40px 0;
+  color: white;
+  line-height: 1;
 }
