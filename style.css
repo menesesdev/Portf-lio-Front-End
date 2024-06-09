@@ -100,17 +100,15 @@ a:hover {
 
 .txt-topo-site h1 {
   font-size: 72px;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
   color: white;
   line-height: 1;
 }
 
-
-
 section.topo-do-site .flex{
   align-items: center;
   justify-content:flex-start;
-  gap: 190px;
+  gap: 200px;
 }
 
 .topo-do-site.txt-topo-site p {
@@ -120,6 +118,7 @@ section.topo-do-site .flex{
 .img-topo-site {
   width: 400px;
   height: auto;
+  padding-right: 500px;
 }
 
 /*Especialidades*/
