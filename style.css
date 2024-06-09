@@ -174,6 +174,7 @@ section.sobre .flex{
 
 .img-sobre img{
   border-radius: 2%;
+  margin-bottom: 20px;
 }
 
 .sobre .txt-sobre{
@@ -181,8 +182,44 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2{
-  font-size: 72px;
+  font-size: 68px;
   margin: 0 0 40px 0;
   color: white;
   line-height: 1;
 }
+
+.sobre .txt-sobre p{
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 0;
+  background: white;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 130px 10px 10px 0px;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+  color: #cb004e;
+}
+
+.sobre .txt-sobre .btn-social  a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sobre .txt-sobre .btn-social a:hover{
+  color: #cb004e;
+  transform: scale(1.05);
+  transition: 0.4s;
+  font-weight: 600;
+}
+
