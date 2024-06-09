@@ -141,6 +141,7 @@ h2.sub-titulo {
   padding: 40px;
   border: 2px solid white;
   margin-top: 40px;
+  margin-bottom: 40px;
   border-radius: 10px;
 }
 
@@ -157,4 +158,11 @@ h2.sub-titulo {
 .especialidades .especialidade-box h3{
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+
+/* Sobre mim */
+
+.img-sobre img{
+  border-radius: 2%;
 }
