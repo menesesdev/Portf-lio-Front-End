@@ -140,7 +140,7 @@ h2.sub-titulo {
   color: white;
   padding: 40px;
   border: 2px solid white;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 40px;
   border-radius: 10px;
 }
@@ -174,7 +174,7 @@ section.sobre .flex{
 
 .img-sobre img{
   border-radius: 2%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .sobre .txt-sobre{
@@ -200,7 +200,7 @@ section.sobre .flex{
   background: white;
   font-size: 25px;
   cursor: pointer;
-  margin: 130px 10px 10px 0px;
+  margin: 120px 10px 10px 0px;
 }
 
 .sobre .txt-sobre .btn-social button:hover{
@@ -223,4 +223,23 @@ section.sobre .flex{
   font-weight: 600;
 }
 
+/* MEUS PROJETOS */
 
+section.meus-projetos h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.meus-projetos.flex{
+  padding: 80px 4%;
+  gap: 50px;
+}
+
+.img-port{
+  width: 360px;
+  height: 460px;
+}
+
+section.meus-projetos .flex{
+  justify-content: space-around;
+}
