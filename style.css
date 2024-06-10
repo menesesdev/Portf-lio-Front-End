@@ -239,8 +239,42 @@ section.meus-projetos.flex{
 .img-port{
   width: 360px;
   height: 460px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  background-position: 100% 0%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.img-port:hover{
+  background-position: 100% 100%;
+  transform: scale(1.05);
+  transition: 4s;
+  cursor: pointer;
 }
 
 section.meus-projetos .flex{
   justify-content: space-around;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 0;
+  transition: .5s;
+}
+
+.overlay:hover{
+  opacity: 1;
 }
