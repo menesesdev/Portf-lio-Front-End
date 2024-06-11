@@ -194,14 +194,14 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre .btn-social button{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 30px;
   border: 0;
   background: white;
-  font-size: 25px;
+  font-size: 16px;
   cursor: pointer;
-  margin: 120px 10px 10px 0px;
+  margin: 110px 10px 0px 0px;
 }
 
 .sobre .txt-sobre .btn-social button:hover{
@@ -281,3 +281,53 @@ section.meus-projetos .flex{
 
 
 /* FOOTER */
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer {
+  padding: 60px 4%;
+}
+
+.line-footer .btn-social-footer button{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  background: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px 10px 10px 10px;
+}
+
+.line-footer .btn-social-footer button:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+  color: #cb004e;
+}
+
+.line-footer .menu-footer a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.line-footer .menu-footer ul{
+  list-style-type: none;
+}
+.line-footer .menu-footer li{
+  display: inline-block;
+  padding: 8px 40px;
+}
+
+.line-footer .logo{
+  margin-right: 20px;
+}
+
+
+footer .line-footer p{
+  color: white;
+  text-decoration: none;
+  
+}
