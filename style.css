@@ -289,7 +289,7 @@ footer .flex{
 }
 
 footer {
-  padding: 40px 4%;
+  padding: 30px 4%;
 }
 
 .line-footer .btn-social-footer button{
@@ -320,7 +320,7 @@ footer {
 }
 .line-footer .menu-footer li{
   display: inline-block;
-  padding: 8px 40px;
+  padding: 5px 40px;
 }
 
 .line-footer .logo{
