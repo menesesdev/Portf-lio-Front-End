@@ -237,6 +237,7 @@ section.meus-projetos.flex{
 }
 
 .img-port{
+  color: black;
   width: 360px;
   height: 460px;
   background-size: cover;
@@ -248,10 +249,12 @@ section.meus-projetos.flex{
 }
 
 .img-port:hover{
+  color: #cb004e;
   background-position: 100% 100%;
   transform: scale(1.05);
   transition: 4s;
   cursor: pointer;
+  
 }
 
 section.meus-projetos .flex{
