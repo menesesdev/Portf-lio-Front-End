@@ -287,7 +287,7 @@ footer .flex{
 }
 
 footer {
-  padding: 60px 4%;
+  padding: 40px 4%;
 }
 
 .line-footer .btn-social-footer button{
@@ -298,7 +298,7 @@ footer {
   background: white;
   font-size: 16px;
   cursor: pointer;
-  margin: 0px 10px 10px 10px;
+  margin: -2px 10px 10px 10px;
 }
 
 .line-footer .btn-social-footer button:hover{
@@ -323,11 +323,22 @@ footer {
 
 .line-footer .logo{
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 
-footer .line-footer p{
+footer .line-footer p i{
   color: white;
   text-decoration: none;
-  
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+footer .line-footer p a{
+  color: white;
+  text-decoration: none;
+}
+
+footer .line-footer p{
+  margin-top: 20px;
 }
