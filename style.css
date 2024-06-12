@@ -463,6 +463,10 @@ footer .line-footer p{
 
   /* curriculo */
 
+  .btn-contato{
+    margin-top: 40px;
+  }
+
   .sobre .txt-sobre h2{
     text-align: center;
   }
@@ -508,6 +512,19 @@ footer .line-footer p{
   footer .logo{
     display: none;
   }
+
+  .btn-social-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .line-footer{
+    margin-bottom: 40px;
+  }
+
+
+
+
 
   .btn-abrir-menu{
     display: block;
