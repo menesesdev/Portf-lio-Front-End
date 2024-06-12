@@ -15,23 +15,24 @@
     <title>menesesdev</title>
 </head>
 
-<body>
+<body scroll-behavior="smooth">
 
     <header>
         <div class="interface">
 
             <div class="logo">
-                <a href="#">
+                <a href="#inicio">
                     <img src="images/logo.png" alt="logo menesesdev">
                 </a>
             </div>
 
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Meu currículo</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Minhas especialidades</a></li>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#curriculo">Meu currículo</a></li>
                 </ul>
             </nav>
 
@@ -41,7 +42,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -67,7 +68,7 @@
                   
         </section>
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="sub-titulo">MINHAS ESPECIALIDADES</h2>
                 <div class="flex">
@@ -99,7 +100,7 @@
             </section>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -134,7 +135,7 @@
             </section>
         </section>
 
-        <section class="meus-projetos">
+        <section class="meus-projetos" id="projetos">
             <div class="interface">
                 <h2 class="sub-titulo">MEUS PROJETOS</h2>
                 <div class="flex">
@@ -160,7 +161,7 @@
                         </section>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="curriculo">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -201,9 +202,11 @@
 
                    <div class="flex">
                         <div class="flex">
-                            <div class="logo">
-                                <img src="images/logo.png" alt="logo menesesdev">
-                            </div>
+                            <a href="#inicio">
+                                <div class="logo">
+                                    <img src="images/logo.png" alt="logo menesesdev">
+                                </div>
+                            </a>
             
                             <div class="btn-social-footer">
                                 <a href="https://github.com/menesesdev" target="_blank"><button><i class="bi bi-github"></i></button></a>
@@ -214,10 +217,11 @@
 
                         <nav class="menu-footer">
                             <ul>
-                                <li><a href="#">Início</a></li>
-                                <li><a href="#">Sobre mim</a></li>
-                                <li><a href="#">Projetos</a></li>
-                                <li><a href="#">Meu currículo</a></li>
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#especialidades">Minhas especialidades</a></li>
+                                <li><a href="#sobre">Sobre mim</a></li>
+                                <li><a href="#projetos">Projetos</a></li>
+                                <li><a href="#curriculo">Meu currículo</a></li>
                             </ul>
                         </nav>
 
